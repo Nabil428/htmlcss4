@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Examples</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png"> <!-- HTML Favicon -->
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Headings */
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        h2 {
+            color: darkred;
+            border-bottom: 2px solid gray;
+            padding-bottom: 5px;
+        }
+
+        /* Paragraphs */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Links */
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        /* Block & Inline */
+        .block {
+            display: block;
+            background-color: lightcoral;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        .inline {
+            display: inline;
+            background-color: lightblue;
+            padding: 5px;
+        }
+
+        /* Quotes */
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid gray;
+            padding-left: 10px;
+            margin: 10px 0;
+        }
+
+        /* Comments */
+        .comment {
+            background-color: lightyellow;
+            padding: 10px;
+            border-left: 4px solid orange;
+        }
+
+        /* Image */
+        img {
+            width: 200px;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML & CSS Examples</h1>
+
+    <!-- HTML Introduction -->
+    <h2>HTML Introduction</h2>
+    <p>HTML (HyperText Markup Language) is the standard language for creating web pages.</p>
+
+    <!-- HTML Editors -->
+    <h2>HTML Editors</h2>
+    <p>You can write HTML code using editors like **VS Code**, **Sublime Text**, or **Notepad++**.</p>
+
+    <!-- HTML Basic -->
+    <h2>HTML Basic Structure</h2>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;My Page&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Hello, World!&lt;/h1&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+
+    <!-- HTML Elements -->
+    <h2>HTML Elements</h2>
+    <p>HTML elements are building blocks of web pages. Example:</p>
+    <p>This is a paragraph element.</p>
+
+    <!-- HTML Attributes -->
+    <h2>HTML Attributes</h2>
+    <p>The **title** attribute provides additional information:</p>
+    <p title="This is a tooltip">Hover over me</p>
+
+    <!-- HTML Headings -->
+    <h2>HTML Headings</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <!-- HTML Paragraphs -->
+    <h2>HTML Paragraphs</h2>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <!-- HTML Styles -->
+    <h2>HTML Styles</h2>
+    <p style="color:blue; font-size:20px;">This is a blue text with larger font.</p>
+
+    <!-- HTML Formatting -->
+    <h2>HTML Formatting</h2>
+    <p><b>Bold</b>, <i>Italic</i>, <u>Underlined</u>, <mark>Highlighted</mark></p>
+
+    <!-- HTML Quotations -->
+    <h2>HTML Quotations</h2>
+    <blockquote>"This is a blockquote, often used for citations."</blockquote>
+
+    <!-- HTML Comments -->
+    <h2>HTML Comments</h2>
+    <div class="comment">
+        <!-- This is an HTML comment -->
+        This is a comment example.
+    </div>
+
+    <!-- HTML Colors -->
+    <h2>HTML Colors</h2>
+    <p style="color:red;">This is red text.</p>
+
+    <!-- HTML CSS -->
+    <h2>HTML and CSS</h2>
+    <p>HTML is used for structure, while CSS is used for styling.</p>
+
+    <!-- HTML Links -->
+    <h2>HTML Links</h2>
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+
+    <!-- HTML Images -->
+    <h2>HTML Images</h2>
+    <img src="https://via.placeholder.com/200" alt="Placeholder Image">
+
+    <!-- HTML Favicon -->
+    <h2>HTML Favicon</h2>
+    <p>The small icon in the browser tab is the favicon.</p>
+
+    <!-- HTML Page Title -->
+    <h2>HTML Page Title</h2>
+    <p>The title of this page is set in the &lt;title&gt; tag.</p>
+
+    <!-- HTML Tables -->
+    <h2>HTML Tables</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <!-- HTML Lists -->
+    <h2>HTML Lists</h2>
+    <p>Unordered List:</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <p>Ordered List:</p>
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+    </ol>
+
+    <!-- HTML Block & Inline -->
+    <h2>HTML Block & Inline Elements</h2>
+    <div class="block">This is a block-level element.</div>
+    <span class="inline">This is an inline element.</span>
+
+    <!-- HTML Icons -->
+    <h2>HTML Icons</h2>
+    <i class="fa fa-home"></i> Home Icon
+
+</body>
+</html>
+
